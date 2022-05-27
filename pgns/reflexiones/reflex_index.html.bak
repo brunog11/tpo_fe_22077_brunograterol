@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postales de Viajes</title>
+    <link rel="stylesheet" href="style/styleBasic.css">
+    <link rel="stylesheet" href="style/styleCard.css">
+    
+	<link rel="stylesheet" href="style/animationScroll.css">
+	<link rel="stylesheet" href="style/cabeceraScroll.css">
+
+    <script src="https://kit.fontawesome.com/1af9f21f55.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <!----====/ CABECERA /===========================================-->
+    <div class="cabecera">
+
+        <div class="izquierda_cabecera">
+        <div class="izq_cab_int">
+            <p> Postales de Viajes </p>
+        </div>
+        </div>
+
+        <div class="derecha_cabecera">
+        <div class="der_cab_int">
+            <a href="../../index.html">
+            <i class="fa-solid fa-house"></i>
+            </a> 
+        </div>
+        </div>
+
+    </div>
+    <!----===========================================================-->
+
+    <div class="contenedor">
+
+        <div class="subcontenedor">
+
+            <div class="imagen wagon">
+                <img src="img/israel-scott-gmi0acnpUrc-unsplash.jpg" alt="israel-scott-gmi0acnpUrc-unsplash" class="imgdesierto">
+            </div>
+
+            <div class="contenido">
+
+                <div class="header">
+                    <H2>
+                        El viaje del desierto
+                    </H2>
+                    <p class="panio">
+                        Jueves 9:00 am
+                    </p>
+                </div>
+    
+                <div class="texto">
+                    <hr><br>
+                    <p>Aun recuerdo esa mañana que salimos de california con destino a Nueva York, recuerdo como el sol me daba en la cara, sentir la emoción de empezar esa aventura. Habían muchos temores y expectativas de como serian las cosas, los estados que visitaríamos, era tan emocionante todo.</p><br>
+                    <p>
+                    Escuchamos tame impala, arctics monkeys, the strokes, y otra bandas.. recuerdo su cara, su ilusión, como jugaba con sus manos con la brisa que arrastrábamos al andar, sus pies sobre el tablero de la van, como dormía, los temas de conversación, el silencio de ver tan hermosos paisajes.
+                    </p><br>
+                    <p>
+                    La libertad de ese momento fue única, el viaje ha empezado..! 
+                    </p>
+
+                </div>
+    
+                <div class="footer">
+                    <hr>
+                    <p>Es como el nacimiento, la ilusión, la alegría...</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="subcontenedor">
+
+            <div class="imagen">
+                <img src="img/timo-wielink-_exTAW6CFUc-unsplash.jpg" alt="timo-wielink-_exTAW6CFUc-unsplash" class="imgrascacielo">
+            </div>
+
+            <div class="contenido">
+
+                <div class="header">
+                    <H2>
+                        El atardecer neoyorquino
+                    </H2>
+                    <p class="panio">
+                        Sábado 5:30 p.m.
+                    </p>
+                    
+                </div>
+
+                <div class="texto">
+                    <hr><br>
+                    <p>Llegamos..! cumplimos el viaje, visitamos los lugares que mas queríamos, comimos, compartimos, conocimos de la cultura, reímos, discutimos, nos amamos, nos perdimos, se nos pincho una llanta… Cuantas cosas pasamos, pero lo disfrutamos, valió la pena esto.<p><br>
+
+                    <p>Y viendo el atardecer, tomado de su mano, me siento el hombre mas afortunado del mundo.. Por ser libre con alguien que es libre..</p><br>
+
+                    <p>Solo se que esta experiencia es algo que no olvidare..</p><br>
+
+                </div>
+
+                <div class="footer">
+                    <hr>
+                    <p>Todo viaje llega a su fin, espera a que hora sale el vuelo?…</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+	<script src="scripts/basicScroll.min.js"></script>
+	<script src="scripts/inicia-script.js"></script>
+    <script src="script/script.js"></script>
+
+</body>
+</html>

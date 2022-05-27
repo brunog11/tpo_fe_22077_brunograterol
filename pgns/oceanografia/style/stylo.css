@@ -1,0 +1,23 @@
+:root {
+  --color: #0a1285;
+
+}
+
+@media (max-width: 37.5em) {
+  :root {
+    --color: #005e80;
+  }
+}
+
+.intermedio__entradilla {
+  color: var(--color);
+}
+
+.intermedio__cuerpo > p:first-child::first-letter {
+  color: var(--color);
+}
+
+.intermedio-img1,
+.imagen-hexagono {
+  --color: #ff0000;
+}

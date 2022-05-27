@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody&display=swap');
+
+/*--------------------------------------*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(black, grey);
+}
+
+/* para que todas las imagenes se ajuesten al contenedor */
+img {
+max-width: 100%;
+max-height: 100%;
+}
+
+/*--------------------------------------*/
+
+.contenedor{
+    margin: 0 auto;
+    display: grid;
+    max-width: 1100px;
+    min-width: 380px;
+    padding: 12px;
+    grid-template: 50px 1fr 260px / repeat(3, 1fr);
+    grid-template-areas: 	"header header header"
+							"side1 contenido side2"
+							"footer footer footer";
+    grid-gap: 5px;
+}
+
+@media (max-width: 880px) {
+    .contenedor{
+        margin: 0 auto;
+        display: grid;
+        max-width: 1100px;
+        min-width: 310px;
+        padding: 12px;
+
+        grid-template: 50px repeat(2, 1fr) 260px / repeat(2, 1fr) ;
+        grid-template-areas: 	"header header"
+                                "side1 contenido"
+                                "side2 ."
+                                "footer footer";
+                                
+        grid-gap: 5px;
+    }
+}
+
+@media (max-width: 600px) {
+    .contenedor{
+        margin: 0 auto;
+        display: grid;
+        max-width: 1100px;
+        min-width: 310px;
+        padding: 12px;
+
+        grid-template: 50px repeat(4,auto) / 1fr ;
+        grid-template-areas: 	"header"
+                                "side1"
+                                "contenido"
+                                "side2"
+                                "footer";
+                                
+        grid-gap: 5px;
+    }
+
+}
+
+/*--------------------------------------*/
+
+.header{
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.intcentral{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Anybody', cursive;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.intderecho{
+    background-size: cover;
+    max-height: 45px;
+    max-width: 45px;
+    border-radius: 50%;
+
+}
+/*--------------------------------------*/
+
+
+.side1{
+    grid-area: side1;
+    background-color: rgba(10, 63, 63, 0.596);
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(172, 172, 172);
+    padding: 6px;
+    font-size: 16px;
+}
+
+
+/*--------------------------------------*/
+
+.side2{
+    grid-area: side2;
+    background-color: rgba(10, 63, 63, 0.596);
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(172, 172, 172);
+    padding: 6px;
+    font-size: 16px;
+}
+
+/*--------------------------------------*/
+
+
+.central{
+    grid-area: contenido;
+    background-color: rgba(10, 63, 63, 0.596);
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(172, 172, 172);
+    padding: 6px;
+    font-size: 16px;
+
+}
+
+/*--------------------------------------*/
+.footer{
+    grid-area: footer;
+    padding: 12px;
+    background-color: rgba(11,11,11, .5);
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(197, 197, 197);
+
+}
+
+hr{
+    /*Cambiar el color de la linea hr*/
+    height: 1px;
+    background-color: rgb(126, 126, 126);
+    border: none;
+}
+
+/*-------------------*/
+.iconosFuente{
+    display: grid;
+    grid-template-columns: 60px repeat(2, 1fr) 
+}
+
+.tresiconos{
+    display: flex;
+    justify-content: space-between;
+    
+}
+/*-------------------*/
+.iconosAutor{
+    display: grid;
+    grid-template-columns: 35px repeat(2, 1fr)
+    
+}
+
+.dosiconos{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/*-------------------*/
+/*Cambiar el color del icono*/
+[class^="fa-"]{
+    color: rgb(139, 139, 139);
+}
+/*Cambiar el color del link visitado*/
+a{
+    color: rgb(227, 221, 221);
+}
+
+a:visited{
+    color: rgb(139, 139, 139);
+}
+
+/*--------------------------------------*/

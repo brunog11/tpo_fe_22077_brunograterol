@@ -1,0 +1,41 @@
+:root {
+    --opacidad-nav: 0;
+    --titular-pos: 0;
+    --mov-img1: 0px;
+    --mov-img2: 15px;
+    --mov-img3: 100%;
+    --mov-img4: 15px;
+}
+
+/*-------------------------------------*/
+.cabecera{
+    opacity: var(--opacidad-nav)
+}
+
+.inicio_banner__titulo{
+    overflow: hidden;
+}
+
+.inicio_banner__titulo h1{
+    transform: translateY(var(--titular-pos))
+}
+/*-------------------------------------*/
+
+
+/*-------------------------------------*/
+.intermedio-img1 img{
+    transform: translateX(var(--mov-img1))
+}
+
+.intermedio-img2 img{
+    transform: translateX(var(--mov-img2))
+}
+
+.intermedio-img3 img{
+    transform: scale(var(--mov-img3))
+}
+
+.intermedio-img4 img{
+    transform: translateX(var(--mov-img4))
+}
+

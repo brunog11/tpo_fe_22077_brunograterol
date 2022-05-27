@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+/*====/ CABECERA /===========================================*/
+.cabecera{
+
+  /*===METODO CABECERA FIJA========*/
+  font: 1.4em/1.8 'Oxygen', sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  /*----------------*/
+  background-color: #03121f;
+  display: flex;
+  justify-content: space-between;
+  /*----------------*/
+  text-align: center;
+  vertical-align: middle;
+}
+/*---------------------------------*/
+.izquierda_cabecera{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+}
+
+/*Cambiar el color del icono*/
+[class^="fa-"]{
+  color: rgb(255, 255, 255);
+}
+/*Cambiar el color del link visitado*/
+a{
+  color: rgb(227, 221, 221);
+}
+a:visited{
+  color: rgb(139, 139, 139);
+}
+
+.izq_cab_int{
+  height: 45px;
+  padding: 5px;
+  border-radius: 15px;
+}
+/*---------------------------------*/
+.derecha_cabecera{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+}
+.der_cab_int{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-color: #8d8d8d;
+}
+/*===========================================================*/

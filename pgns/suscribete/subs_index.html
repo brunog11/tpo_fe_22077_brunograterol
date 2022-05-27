@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Suscribete</title>
+        <link rel="stylesheet" href="style/style.css">
+
+        <link rel="stylesheet" href="style/animationScroll.css">
+        <link rel="stylesheet" href="style/cabeceraScroll.css">
+    
+        <script src="https://kit.fontawesome.com/1af9f21f55.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+    <!----====/ CABECERA /===========================================-->
+    <div class="cabecera">
+
+        <div class="izquierda_cabecera">
+        <div class="izq_cab_int">
+            <p> Proyecto Chequeo de campos en formularios </p>
+        </div>
+        </div>
+
+        <div class="derecha_cabecera">
+        <div class="der_cab_int">
+            <a href="../../index.html">
+            <i class="fa-solid fa-house"></i>
+            </a> 
+        </div>
+        </div>
+
+    </div>
+    <!----===========================================================-->
+
+        <form name='registro' class="formulario">
+
+            <h2>Suscribite a nuestro bolentin de novedades</h2>
+            <hr>
+            <label for="nombre" class="lblnombre" id="lblnombre">Nombre (*):</label>
+            <input type="text" name="nombre" size="40" id="nombre"/>
+
+            <label for="email" class="lblemail" id="lblemail">Email (*):</label>
+            <input type="email" name="email" size="40" id="email"/>
+
+            <label for="fecha" class="lblfecha" id="lblfechaNac">Fecha de nacimiento (*):</label>
+            <input type="date" name="fecha" size="40" id="fechaNac"/>
+
+            <label class="lblgenero" id="lblgenero">Genero (Opcional):</label>
+                <div class="optionsGenero">
+                    <input type="radio" name="genero" value="Masculino" id="genero" /><span> Masculino </span>
+                    <input type="radio" name="genero" value="Femenino" id="genero"/><span> Femenino </span>
+                    <input type="radio" name="genero" value="Otro" id="genero" checked="checked"/><span> Otro </span>
+                </div>
+
+            <label for="comote" class="lblcomote" id="lblcomote">Como te enteraste de nsosotros? (*):</label>
+            <select name="comote" id="comote">
+                <option selected="" value="Default">--Elige una opcion--</option>
+                <option value="radio television">Radio o Television</option>
+                <option value="instagram">Instagram</option>
+                <option value="linkedIn">LinkedIn</option>
+                <option value="facebook">Facebook</option>
+                <option value="recomendacion">Recomendacion de un amigo o conocido</option>
+            </select>
+
+            <label for="desc" class="lbldesc" id="lbldesc">Otro dato (opcional):</label>
+            <textarea name="desc" id="desc"></textarea>
+            <hr>
+
+            <div id="mensajes" class="mensajes">
+                
+            </div>
+
+            <input type="button" name="botonEnvInfo" value="Enviar" onclick="chk_form()"/>
+
+        </form>
+
+        <script src="scripts/script3.js"></script>
+        
+    </body>
+</html>

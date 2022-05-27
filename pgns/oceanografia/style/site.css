@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
+  color: #333333;
+  font: 1.4em/1.8 'Oxygen', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 37.5rem) {
+  body {
+    font-size: 1.2em;
+  }
+}
+
+h1 {
+  font-size: 8vw;
+  line-height: 1;
+  font-weight: 500;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5em;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p {
+  margin-top: 0;
+}
+
+.inicio_banner {
+  color: #fafafa;
+  display: flex;
+  position: relative;
+}
+
+.inicio_banner__image1 {
+  height: 50vh;
+  width: 100%;
+}
+
+
+.inicio_banner__titulo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  padding: 3em;
+}
+
+.inicio_banner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  opacity: 0.4;
+}
+
+@media (max-width: 37.5rem) {
+  .inicio_banner {
+    flex-direction: column;
+  }
+  .inicio_banner__image1 {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .inicio_banner img {
+    width: 100%;
+    height: 100%;
+    object-position: center top;
+  }
+
+  .inicio_banner__titulo {
+    align-items: center;
+  }
+}
+
+/*====/ CABECERA /===========================================*/
+.cabecera{
+
+  /*===METODO CABECERA FIJA========*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  /*----------------*/
+  background-color: #03121f;
+  display: flex;
+  justify-content: space-between;
+  /*----------------*/
+  text-align: center;
+  vertical-align: middle;
+}
+/*---------------------------------*/
+.izquierda_cabecera{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+}
+
+/*Cambiar el color del icono*/
+[class^="fa-"]{
+  color: rgb(255, 255, 255);
+}
+/*Cambiar el color del link visitado*/
+a{
+  color: rgb(227, 221, 221);
+}
+a:visited{
+  color: rgb(139, 139, 139);
+}
+
+.izq_cab_int{
+  height: 45px;
+  padding: 5px;
+  border-radius: 15px;
+}
+/*---------------------------------*/
+.derecha_cabecera{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+}
+.der_cab_int{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-color: #8d8d8d;
+}
+/*===========================================================*/
+
+.intermedio {
+  max-width: 54em;
+  margin: 5em auto;
+  padding: 0 3em;
+}
+
+.intermedio__entradilla {
+  column-count: 3;
+  column-gap: 3em;
+  column-rule: thick solid rgba(4, 42, 75, 0.05);
+  margin-bottom: 3em;
+  font-weight: 100;
+  font-size: 110%;
+  line-height: 1;
+  color: #03121f;
+  text-align: justify;
+  hyphens: auto;
+  font-family: 'Playfair Display', serif;
+}
+
+.intermedio__entradilla > p {
+  margin-bottom: 0;
+}
+
+.intermedio__cuerpo {
+  max-width: 34em;
+  margin: auto;
+  text-align: justify;
+}
+.articulo__cueintermedio__cuerporpo > p:first-child::first-letter {
+  color: #004e92;
+  font-size: 12rem;
+  line-height: 0.75;
+  float: left;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 840px) {
+  .intermedio {
+    padding: 0 2em;
+  }
+  .intermedio__entradilla {
+    column-count: 2;
+    line-height: 1.2;
+    font-size: 100%;
+    text-align: left;
+  }
+}
+
+@media (max-width: 37.5rem) {
+  .intermedio {
+    padding: 0 2em;
+  }
+  .intermedio__entradilla {
+    column-count: 1;
+    line-height: 1.2;
+    font-size: 100%;
+    text-align: left;
+  }
+}
+
+
+/*[intermedio-img1]-----------------------------------*/
+
+.intermedio-img1 {
+  max-width: 25em;
+  float: left;
+  background: #004e92;
+  margin-left: -10em;
+  margin-right: 1em; 
+  clip-path: polygon(50% 0%, 100% 27%, 94% 100%, 0 62%);
+  shape-outside: polygon(50% 0%, 100% 27%, 94% 100%, 0 62%) border-box; 
+  shape-margin: 1em;
+}
+
+.intermedio-img1 img {
+  display: block;
+  mix-blend-mode: hard-light;
+}
+
+
+
+/*[intermedio-img2]-----------------------------------*/
+
+.intermedio-img2 {
+  max-width: 25em;
+  float: right;
+  background: #004e92;
+  margin-left: 1em;
+  margin-right: -10em;
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+  shape-outside: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%) border-box;
+  shape-margin: 1em;
+  filter: brightness(1.75);
+}
+
+.intermedio-img2 img {
+  display: block;
+  mix-blend-mode: hard-light;
+}
+
+
+
+/*[intermedio-img3]-----------------------------------*/
+
+.intermedio-img3 {
+  max-width: 25em;
+  float: left;
+  background: #004e92;
+  margin-left: -10em;
+  margin-right: 1em;
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  shape-outside: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%) border-box;
+  shape-margin: 1em;
+}
+
+.intermedio-img3 img {
+  display: block;
+  mix-blend-mode: hard-light;
+}
+
+
+/*[intermedio-img4]-----------------------------------*/
+
+.intermedio-img4 {
+  max-width: 25em;
+  float: right;
+  background: #004e92;
+  margin-left: 1em;
+  margin-right: -10em;
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+  shape-outside: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%) border-box;
+  shape-margin: 1em;
+}
+
+.intermedio-img4 img {
+  display: block;
+  mix-blend-mode: hard-light;
+}
+
+
+/*----------------------------------------------------*/
+
+@media (max-width: 37.5em) {
+
+  .intermedio-img1 {
+    margin: 1em;
+    shape-outside: unset;
+  }
+  .intermedio-img2 {
+    margin: 1em;
+    shape-outside: unset;
+  }
+  .intermedio-img3 {
+    margin: 1em;
+    shape-outside: unset;
+  }
+  .intermedio-img4 {
+    margin: 1em;
+    shape-outside: unset;
+  }
+
+}
+
+.intermedio-hpervinculo{
+  color: #161718;
+  font-size: 65%;  
+}
+
+.linea_divisioria{
+  border: 3px dotted rgba(4, 148, 148, .5);
+  line-height: 1px;
+}

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 380px;
+    
+}
+
+hr{
+    height: 1px;
+    background-color: rgb(132, 59, 0);
+    border: none;
+}
+
+/*================================================*/
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*=============================*/
+.subcontenedor{
+    perspective: 1px;
+    max-width: 480px;
+    min-width: 320px;
+    margin: 10px;
+    background-color: rgb(254, 236, 211);
+}
+
+/*=====================*/
+.imagen{
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/*-----------*/
+.imagen img{
+    object-fit: cover;
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+/*-----------*/
+
+.wagon{
+    transform: scaleX(-1)
+}
+
+/*=====================*/
+.contenido{
+    border-radius: 12px;
+    display: grid;
+    grid-template: 50px 1fr 50px / 1fr;
+    
+}
+
+/*-----------*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+
+}
+
+h2{
+    font-family: 'Akshar', sans-serif; /*<-----------------------*/
+    font-size: 20px;
+    color: rgb(132, 59, 0);
+
+}
+
+/*-----------*/
+.panio{
+    font-family: 'Grape Nuts', cursive; /*<-----------------------*/
+    color: rgb(0, 0, 0);
+
+}
+
+.texto{
+    color: rgb(132, 59, 0);
+    font-family: 'Lora', serif;
+    padding: 5px;
+    
+}
+
+/*-----------*/
+.footer{
+    font-family: 'Grape Nuts', cursive; /*<-----------------------*/
+    color: rgb(0, 0, 0);
+    text-align: right;
+    padding: 5px;
+    
+}
+
+
+/*================================================*/

@@ -1,0 +1,19 @@
+==========================================
+Ejecutar función cuando el usuario termina de escribir en lugar de 'onkeyup' [cerrada]
+---
+Esto para actualizar si cumple con la condicion y dar los cumplimientos de las condiciones
+---
+https://es.stackoverflow.com/questions/118800/ejecutar-funci%C3%B3n-cuando-el-usuario-termina-de-escribir-en-lugar-de-onkeyup
+==========================================
+Insertar elementos en el DOM
+---
+Si no cumple una condicion de campo, que se ingrese un texto explicando lo que pueda pasar
+---
+https://lenguajejs.com/javascript/dom/insertar-elementos-dom/#:~:text=Uno%20de%20los%20m%C3%A9todos%20m%C3%A1s,los%20elementos%20hijos%20que%20existan.
+==========================================
+Habilitar/Deshabilitar Boton mediante JS
+---
+Ya con todos los campos aprobados se procede a habilitar el boton de envio de formulario
+---
+https://es.stackoverflow.com/questions/291278/habilitar-deshabilitar-boton-mediante-js
+==========================================

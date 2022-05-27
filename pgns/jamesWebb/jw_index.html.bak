@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+
+	<link rel="stylesheet" href="style/animationScroll.css">
+	<link rel="stylesheet" href="style/cabeceraScroll.css">
+
+    <script src="https://kit.fontawesome.com/1af9f21f55.js" crossorigin="anonymous"></script>
+    
+    <title>Primera Fotografia Telescopio James Webb</title>
+</head>
+<body>
+    <div class="basecont">
+    
+    <!----====/ CABECERA /===========================================-->
+    <div class="cabecera">
+
+        <div class="izquierda_cabecera">
+        <div class="izq_cab_int">
+            <p> Proyecto James Web </p>
+        </div>
+        </div>
+
+        <div class="derecha_cabecera">
+        <div class="der_cab_int">
+            <a href="../../index.html">
+            <i class="fa-solid fa-house"></i>
+            </a> 
+        </div>
+        </div>
+
+    </div>
+    <!----===========================================================-->
+
+        <div class="contenedor">
+
+            <div class="cajas header">
+                <div class="intheader intizquierdo"></div>
+                <div class="intheader intcentral">Primera fotografía del telescopio James Webb</div>
+                <div class="intheader intderecho">
+                    <img src="img/302px-JWST_decal.svg.png" alt="james">
+                </div>
+            </div>
+
+            <div class="cajas side1">
+                <div class="side11">
+                    <div class="imgside11">
+                        <img src="img/5192_estrella-roja-webb.jpg" alt="estrella_roja">
+                    </div> 
+                    <br>
+                    <p>
+                        La nueva imagen se centra en una estrella llamada <strong>2MASS J17554042+6551277</strong>, según el comunicado. Eso representa un nuevo objetivo para el observatorio: <br><br>
+                        Los pasos anteriores del proceso de puesta en servicio se centraron en HD 84406, una estrella en la constelación de la Osa Mayor que se encuentra a unos 241 años luz de la Tierra. <br><br>
+                        También se ven en el fondo otras estrellas y galaxias que la agencia no identificó. <br><br>
+                        El poder de observación de JWST proviene en parte del enorme espejo del telescopio, que se extiende 21 pies de ancho (6,5 metros). Pero un espejo de ese tamaño no puede ser
+                        lanzado tal cual, por lo que los diseñadores del observatorio dividieron la superficie dorada en 18 segmentos hexagonales ajustables individualmente. <br><br>   
+                        Durante semanas, los ingenieros de la misión han estado ajustando la alineación de esos segmentos para enfocar el universo para el observatorio masivo. <br><br>
+                        Ese proceso aún no está completo, enfatizó la NASA, pero los pasos más difíciles y que provocan más ansiedad ahora están detrás del equipo. 
+                    </p>
+                    <br>
+                </div>
+            </div>
+
+            <div class="cajas central">
+
+                <div class="imgside11">
+                    <img src="img/James_Webb_Space_Telescope_Town_Hall_(30702908816).jpg" alt="ThomasSpeech">
+                </div> 
+                <br>
+                <p>
+                    "Hace más de 20 años, el equipo de Webb se dispuso a construir el telescopio más poderoso que nadie jamás haya puesto en el espacio y ideó un audaz diseño óptico para cumplir objetivos científicos exigentes", dijo Thomas Zurbuchen, administrador asociado de la Dirección de Misiones Científicas de la NASA, en el declaración. <br><br>
+                    "Hoy podemos decir que el diseño va a cumplir". <br><br>
+                </p>
+
+                <div class="imgside11">
+                    <img src="img/nQp5ViAATgeV6yP2of9KQZ.jpg" alt="mirrow_alings">
+                </div> 
+
+                <p>
+                    
+                    La agencia también lanzó una imagen de "autofoto" usando una lente adaptada para fotografiar el espejo principal para ayudar a los ingenieros durante la alineación.
+                </p>
+
+            </div>  
+
+            <div class="cajas side2">
+                <p>
+                    Una vez que se completa la alineación del espejo, tal vez a principios de mayo, dijo la NASA, el otro paso preparatorio importante del equipo es calibrar los instrumentos a bordo.
+                    el observatorio Se espera que ese trabajo esté completo para este verano, cuando JWST podrá comenzar sus observaciones científicas.
+                </p>
+                <br><br>
+                <div class="imgside11">
+                    <img src="img/Eagle_nebula_pillars.jpg" alt="pillars_creation">
+                </div> 
+                <br><br>
+                <p>
+                    La agenda científica del observatorio incluye abordar temas como comprender los primeros días del universo, evaluar la habitabilidad de los exoplanetas y
+                    identificando el impacto que la misteriosa materia oscura tiene en el cosmos.
+                </p>
+                <br><br>
+                <div class="imgside11">
+                    <img src="img/hubble_kelt20b.png" alt="kelt20b">
+                </div> 
+                <br><br>
+            </div>
+
+            <div class="cajas footer">
+                Fuente del articulo: <br>
+                <a href="https://www.space.com/james-webb-space-telescope-alignment-photo">https://www.space.com/james-webb-space-telescope-alignment-photo</a>
+            
+                <br><br><hr><br>
+
+                Autora: <br>
+                Meghan Bartels / Senior Writer <br>
+
+                <div class="iconosFuente">
+
+                    <div class="tresiconos">
+                        <a href="https://www.twitter.com/@meghanbartels">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a> 
+                        <a href="https://www.linkedin.com/in/meghan-bartels-1a10802b/">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a> 
+                        <a href="mbartels@space.com">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+
+                    <div></div>
+                    <div></div>
+                </div>
+                
+                <br><hr><br>
+                El motivo de la presentacion de este material es para la practica del curso: Layout web con CSS Grid, Flexbox y otras técnicas modernas. (Practica 3 - Flexbox y Grid) <br>
+
+                Un curso de Javier Usobiaga Ferrer, Diseñador web <br>
+                <br><hr><br>
+                Realizador: <br>
+                Bruno Graterol / Ing. Civil, Estudiante de Data Science y Programacion Fullstack. <br>
+
+                <div class="iconosAutor">
+
+                    <div class="dosiconos">
+                        <a href="https://www.instagram.com/bruno_gtrl/?hl=en">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a> 
+                        <a href="https://www.linkedin.com/in/brunograterol/">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a> 
+                    </div>
+                    <div></div>
+                    <div></div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+	<script src="scripts/basicScroll.min.js"></script>
+	<script src="scripts/inicia-script.js"></script>
+</body>
+</html>

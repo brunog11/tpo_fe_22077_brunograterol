@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/animationScroll.css">
+	<link rel="stylesheet" href="style/varCabeceraScrolls.css">
+	<link rel="stylesheet" href="style/cabeceraScroll.css">
+	<script src="https://kit.fontawesome.com/1af9f21f55.js" crossorigin="anonymous"></script>
+    <title>Visionarias y luchadoras</title>
+</head>
+<body>
+    <br>
+    
+    <h1 class="tirulo_principal">Visionarias y Luchadoras</h1>
+
+    <div class="cont">
+        
+        <div class="cont-individual">
+            <h3>Marie Curie</h3><br>
+            <div class="cont-foto">
+                <img src="img/marieCurie.jpg" class="foto" alt="">
+            </div>
+            <div class="textos">
+                <p>
+                    <strong>Ocupación:</strong><br><hr><br>
+                        Científica <br><br>
+
+                    <strong>Área:</strong><br><hr><br>
+                        Física y química <br><br>
+
+                    <strong>Aporte:</strong><br><hr><br>
+                        Descubrimiento del radio y polonio <br><br>
+
+                    <strong>Cargos ocupados:</strong><br><hr><br>
+                        Catedrática <br><br>
+
+                    <strong>Empleadores:</strong><br><hr><br>
+                    -Escuela Superior de Física y de Química Industriales de París. <br><br>
+                    -Escuela Normal Superior de París. <br><br>
+                    -Facultad de Ciencias de la Universidad de París. <br><br>
+                    -Instituto del Radio del Instituto Pasteur y la Universidad de París. <br><br>
+                </p>
+            </div>
+        </div>
+
+        <div class="cont-individual">
+            <h3>Teresa Carreño</h3><br>
+            <div class="cont-foto">
+                <img src="img/teresaCareno.jpg" class="foto" alt="">
+            </div>
+            <div class="textos">
+                <p>
+                    <strong>Ocupación:</strong><br><hr><br>
+                    Pianista, cantante y compositora <br><br>
+
+                    <strong>Alumna de:</strong><br><hr><br>
+                    Louis Moreau Gottschalk  <br><br>
+
+                    <strong>Años activa:</strong><br><hr><br>
+                    1863 - 1917 <br><br>
+
+                    <strong>Seudónimo:</strong><br><hr><br>
+                    La leona del piano<br><br>
+                    
+                    <strong>Género	Música:</strong><br><hr><br>
+                    Clásica <br><br>
+
+                    <strong>Instrumento:</strong><br><hr><br>
+                    Piano<br><br>
+
+                    <strong>Tipo de voz:</strong><br><hr><br>
+                    Soprano <br><br>
+                </p>
+            </div>
+        </div>
+
+        <div class="cont-individual">
+            <h3>Alicia Moreau de Justo</h3><br>
+            <div class="cont-foto">
+                <img src="img/aliciaMjustos.jpg" class="foto" alt="">
+            </div>
+            <div class="textos">
+                <p>
+                    <strong>Ocupación:</strong><br><hr><br>
+                    Médica , política<br><br>
+
+                    <strong>Educada en:</strong><br><hr><br>
+                    Universidad de Buenos Aires (1907-1914)<br><br>
+
+                    <strong>Años activa:</strong><br><hr><br>
+                    1902-1985<br><br>
+
+                    <strong>Empleador:</strong><br><hr><br>
+                    -Universidad Nacional de La Plata<br><br>
+                    -La Vanguardia (periódico de Argentina) (1956-1960)<br><br>
+                    
+                    <strong>Partidos político:</strong><br><hr><br>
+                    -Partido Socialista (1921-1958)<br><br>
+                    -Partido Socialista Argentino (1958-1972)<br><br>
+                    -Confederación Socialista Argentina (1972-1986)<br><br>
+
+                    <strong>Distinciones:</strong><br><hr><br>
+                    -1984: distinción Mujer del Año<br><br>
+                    -1985: distinción Médica del siglo por la UBA<br><br>
+                    -1985: distinción Ciudadana ilustre de la Ciudad de Buenos Aires<br><br>
+                    -1988: premio Konex de Honor<br><br>
+                </p>
+            </div>
+
+        </div>
+    
+    </div>
+    
+    <footer class="footer">
+        <div class="div-footer">
+            Todas las referencias fueron tomadas de Wikipedia. / Edicion y deseño: Bruno Graterol
+        </div>
+        
+    </footer>
+	<script src="scripts/basicScroll.min.js"></script>
+	<script src="scripts/inicia-script.js"></script>
+</body>
+
+
+
+</html>
