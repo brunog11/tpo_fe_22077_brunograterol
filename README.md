@@ -5,7 +5,5 @@ En este modelo práctico, el cual empleamos todo lo aprendido en la cursada del 
 
 Como requisitos de evaluación en este primer cuatrimestre se nos impartieron varias clases de las diferentes tecnologías y las misma tenía una prueba cortas de selección simple, cronometradas y con validez de una semana luego de impartida la clase. Como prueba de cierre se nos solicitó que hiciéramos un proyecto enfocado en Front End, con todas las herramientas facilitadas, así que manos a la obra en ese caso decidí hacer un proyecto que consistiese en una especie de portafolio de mis proyectos practicados mediante la cursada y además dotándoles de características solicitadas por la industria comúnmente, ej. 100% responsive con el uso de flexbox y grid.
 
-Sin más decir a continuación dejo el link de acceso del proyecto.
 
 ---
-[link de trabajo practico](https://brunog11.github.io/tpo_fe_22077_brunograterol/)
